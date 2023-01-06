@@ -2,7 +2,7 @@
 
 Bonjour
 
-![Alt Text](https://media2.giphy.com/media/9LXDjYYlm2wtpfBDQf/giphy.gif?cid=790b76115fd2c5beea44362823271a9b3d97f1e50d70aa38&rid=giphy.gif&ct=g)
+![](./mami.gif)
 
 Ce tuto est pour apprendre a faire la recette de la galette saucisse, celle de nos grand parent de bretagne. Avec un gout inimitable.
 

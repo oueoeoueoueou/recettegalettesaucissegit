@@ -233,6 +233,23 @@ Pour voir les différences entre les commits, il faut utiliser la commande suiva
 
 Pour ignorer un fichier, il faut créer un fichier `.gitignore` à la racine du projet et y ajouter les fichiers à ignorer.
 
+### Reset
+
+Pour annuler un commit, il faut utiliser la commande suivante :
+
+    git reset --soft <commit>
+
+Pour annuler un commit et les modifications, il faut utiliser la commande suivante :
+
+    git reset --hard <commit>
+
+### Rebase
+
+Pour rebaser un commit, il faut utiliser la commande suivante :
+
+    git rebase -i <commit>
+
+
 ---
 
 ### Les branches

@@ -27,7 +27,7 @@ Dégustez !
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# GIT
+# GIT (commande de base)
 
 Git est un système de gestion de versions décentralisé. Il permet de gérer des versions de fichiers et de répertoires. Il permet de travailler en équipe sur un même projet.
 
@@ -51,9 +51,9 @@ Pour commiter un fichier, il faut utiliser la commande suivante :
 
     git commit -m "<message>"
 
-### Voir l'état du dépôt
+### Voir l'état de l'espace de travail
 
-Pour voir l'état du dépôt, il faut utiliser la commande suivante :
+Pour voir l'état de l'espace de travail, il faut utiliser la commande suivante :
 
     git status
 

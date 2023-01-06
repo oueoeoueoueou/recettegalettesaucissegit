@@ -26,9 +26,6 @@ Dégustez bieng!
 
 ---
 
-=======
-<<<<<<< HEAD 5. Dégustez !
-
 ## Accord vin
 
 La galette saucisse se marie parfaitement avec du vin rouge sec plutôt « jeune » comme un bon Cheverny rouge, un Côte roannaise rouge, un Orléans rouge, un Coteaux du Cher et de l'Arnon rouge ou encore un Anjou rouge.
@@ -95,7 +92,9 @@ Pour cela, rendez-vous sur la page du dépôt sur GitHub et copiez l'URL du dép
 
 Ouvrez un terminal et positionnez-vous dans le répertoire où vous voulez créer votre copie locale du dépôt. Tapez la commande suivante :
 
+```
 git clone URL_DU_DEPOT
+```
 
 Le dépôt sera alors téléchargé sur votre ordinateur et un nouveau répertoire sera créé avec le nom du dépôt.
 Ajout de fichiers au dépôt

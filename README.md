@@ -28,3 +28,6 @@ Dégustez !
 ## Accord vin
 
 La galette saucisse se marie parfaitement avec du vin rouge sec plutôt « jeune » comme un bon Cheverny rouge, un Côte roannaise rouge, un Orléans rouge, un Coteaux du Cher et de l'Arnon rouge ou encore un Anjou rouge.
+
+===============================================================================
+

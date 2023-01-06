@@ -60,3 +60,83 @@ Un dépôt, ou repository en anglais, est un espace de stockage qui contient vot
 Pour créer un nouveau dépôt sur GitHub, connectez-vous à votre compte et cliquez sur le bouton "New repository" en haut à droite de la page.
 
 Donnez un nom à votre dépôt et une description (optionnelle). Sélectionnez les options "Initialize this repository with a README" et "Add .gitignore: None" et cliquez sur le bouton "Create repository".
+
+## Clonage d'un dépôt
+
+Si vous souhaitez travailler sur un projet existant, vous pouvez cloner (copier) son dépôt sur votre ordinateur.
+
+Pour cela, rendez-vous sur la page du dépôt sur GitHub et copiez l'URL du dépôt (en haut à droite de la page, bouton "Code").
+
+Ouvrez un terminal et positionnez-vous dans le répertoire où vous voulez créer votre copie locale du dépôt. Tapez la commande suivante :
+```	
+git clone URL_DU_DEPOT
+```
+Le dépôt sera alors téléchargé sur votre ordinateur et un nouveau répertoire sera créé avec le nom du dépôt.
+
+Clonage d'un dépôt
+
+Si vous souhaitez travailler sur un projet existant, vous pouvez cloner (copier) son dépôt sur votre ordinateur.
+
+Pour cela, rendez-vous sur la page du dépôt sur GitHub et copiez l'URL du dépôt (en haut à droite de la page, bouton "Code").
+
+Ouvrez un terminal et positionnez-vous dans le répertoire où vous voulez créer votre copie locale du dépôt. Tapez la commande suivante :
+
+git clone URL_DU_DEPOT
+
+Le dépôt sera alors téléchargé sur votre ordinateur et un nouveau répertoire sera créé avec le nom du dépôt.
+Ajout de fichiers au dépôt
+
+## Ajout de fichiers au dépôt
+
+Pour ajouter des fichiers au dépôt, il faut d'abord les "indexer" avec la commande git add. Par exemple, pour ajouter un fichier nommé "monfichier.txt", tapez :
+```
+git add monfichier.txt
+```
+Vous pouvez ajouter plusieurs fichiers en même temps en utilisant l'opérateur *, par exemple :
+```
+git add *.txt
+```
+Cela ajoutera tous les fichiers ayant l'extension ".txt" dans le répertoire courant.
+
+Enregistrement des modifications (commit)
+
+Une fois que vous avez ajouté les fichiers que vous souhaitez au dépôt, il faut enregistrer ces modifications (commit) avec un message expliquant les changements apportés.
+
+Pour cela, tapez la commande suivante :
+```
+git commit -m "Votre message de commit"
+```
+
+## Envoi des modifications sur GitHub (push)
+
+Pour envoyer vos commits sur GitHub, vous devez utiliser la commande git push.
+
+Avant de pouvoir envoyer vos commits, vous devez vous assurer que vous êtes à jour avec le dépôt distant (celui sur GitHub). Pour cela, utilisez la commande git pull.
+
+Ensuite, pour envoyer vos commits, tapez :
+```
+git push origin nom_de_votre_branche
+```
+Remplacez "nom_de_votre_branche" par le nom de la branche sur laquelle vous travaillez. Si vous travaillez sur la branche principale (master), vous pouvez omettre cet argument.
+
+## Travail en équipe sur un projet
+
+Lorsque vous travaillez en équipe sur un projet, il est recommandé de travailler sur des branches séparées plutôt que directement sur la branche principale (master).
+
+Pour créer une nouvelle branche, utilisez la commande suivante :
+```
+git branch nom_de_la_branche
+```
+Pour basculer sur cette branche, utilisez la commande git checkout :
+```
+git checkout nom_de_la_branche
+```
+Vous pouvez également créer et basculer sur une nouvelle branche en une seule commande avec git checkout -b :
+```
+git checkout -b nom_de_la_branche
+```
+Une fois que vous avez terminé de travailler sur votre branche, vous pouvez envoyer vos modifications sur GitHub en utilisant une pull request.
+
+Pour cela, rendez-vous sur la page du dépôt sur GitHub et cliquez sur le bouton "New pull request". Sélectionnez votre branche dans la liste et cliquez sur "Create pull request".
+
+Vous pouvez ajouter des commentaires et des informations supplémentaires sur votre pull request. Un membre de l'équipe peut alors review (relecture) votre pull request et, s'il est d'accord, l'intégrer à la branche principale.

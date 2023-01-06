@@ -12,3 +12,15 @@ Ingrédients :
 
 1
 Dans une poêle ou au barbecue, faites cuire les saucisses.
+
+2
+Avant la fin de la cuisson de la saucisse, faites chauffer une poêle beurrée avec le beurre salé et déposez une galette dans la poêle pour la faire chauffer quelques minutes.
+
+3
+Quand la galette est chaude et la saucisse cuite, déposez la saucisse sur l’un des bords de la galette puis roulez la saucisse dedans.
+
+4
+Renouvelez l’opération jusqu’à ce qu’il n’y ait plus de galettes et de saucisses.
+
+5
+Dégustez !

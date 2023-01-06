@@ -23,6 +23,6 @@ Quand la galette est chaude et la saucisse cuite, déposez la saucisse sur l’u
 Renouvelez l’opération jusqu’à ce qu’il n’y ait plus de galettes et de saucisses.
 
 5
-Dégustez !
---------------------------------------------------------------------------------------------------------------------------------------------------------
+Dégustez bieng!
 
+---

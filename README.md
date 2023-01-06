@@ -140,3 +140,21 @@ Une fois que vous avez terminé de travailler sur votre branche, vous pouvez env
 Pour cela, rendez-vous sur la page du dépôt sur GitHub et cliquez sur le bouton "New pull request". Sélectionnez votre branche dans la liste et cliquez sur "Create pull request".
 
 Vous pouvez ajouter des commentaires et des informations supplémentaires sur votre pull request. Un membre de l'équipe peut alors review (relecture) votre pull request et, s'il est d'accord, l'intégrer à la branche principale.
+
+## Résolution de conflits
+
+Il peut arriver que des conflits apparaissent lorsque vous essayez de fusionner des branches.
+
+Un conflit se produit lorsque plusieurs personnes ont modifié le même fichier et que Git ne sait pas comment fusionner ces modifications.
+
+Pour résoudre un conflit, vous devez ouvrir le fichier en conflit et chercher les sections de code qui sont entourées de balises <<<<<<<, ======= et >>>>>>>. Vous devez alors choisir quelles modifications conserver et supprimer les balises.
+
+Une fois que vous avez résolu le conflit, ajoutez le fichier modifié avec la commande git add et faites un commit avec un message expliquant les modifications apportées.
+
+## Conclusion
+
+Voilà, vous savez maintenant comment utiliser Git et GitHub pour travailler sur un projet en collaboration avec d'autres personnes.
+
+N'hésitez pas à vous référer à la documentation de Git pour en savoir plus sur les commandes et les fonctionnalités disponibles.
+
+Et n'oubliez pas de suivre les bonnes pratiques de gestion de version de code pour éviter les problèmes et travailler de manière efficace en équipe.

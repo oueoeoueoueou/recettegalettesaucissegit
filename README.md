@@ -249,7 +249,6 @@ Pour rebaser un commit, il faut utiliser la commande suivante :
 
     git rebase -i <commit>
 
-
 ---
 
 ### Les branches
@@ -287,3 +286,5 @@ Pour supprimer une branche, il faut utiliser la commande suivante :
 finito le repo
 
 > > > > > > > magrossebranche
+
+> > > > > > > je naurais jamais du creer cette branche
